@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\Klinik\Klinik\bin\Debug\Klinik.exe.config
+C:\Users\ASUS\source\repos\Klinik\Klinik\bin\Debug\Klinik.exe
+C:\Users\ASUS\source\repos\Klinik\Klinik\bin\Debug\Klinik.pdb
+C:\Users\ASUS\source\repos\Klinik\Klinik\bin\Debug\Klinik.xml
+C:\Users\ASUS\source\repos\Klinik\Klinik\obj\Debug\Klinik.vbprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Klinik\Klinik\obj\Debug\Klinik.Form1.resources
+C:\Users\ASUS\source\repos\Klinik\Klinik\obj\Debug\Klinik.Resources.resources
+C:\Users\ASUS\source\repos\Klinik\Klinik\obj\Debug\Klinik.vbproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\Klinik\Klinik\obj\Debug\Klinik.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Klinik\Klinik\obj\Debug\Klinik.exe
+C:\Users\ASUS\source\repos\Klinik\Klinik\obj\Debug\Klinik.xml
+C:\Users\ASUS\source\repos\Klinik\Klinik\obj\Debug\Klinik.pdb
+C:\Users\ASUS\source\repos\Klinik\Klinik\obj\Debug\Klinik.LoginForm.resources
+C:\Users\ASUS\source\repos\Klinik\Klinik\bin\Debug\Klinik.exe.manifest
+C:\Users\ASUS\source\repos\Klinik\Klinik\bin\Debug\Klinik.application
+C:\Users\ASUS\source\repos\Klinik\Klinik\obj\Debug\Klinik.exe.manifest
+C:\Users\ASUS\source\repos\Klinik\Klinik\obj\Debug\Klinik.application

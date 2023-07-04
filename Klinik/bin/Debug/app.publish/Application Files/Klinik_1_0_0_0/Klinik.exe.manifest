@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Klinik.exe" version="1.0.0.0" publicKeyToken="8591b19333b3d93c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Klinik" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Klinik.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Klinik.exe" size="1416152">
+      <assemblyIdentity name="Klinik" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vqC5YU4zVYw29sByPObEpdo507JP/Uf/ee9x9K68S04=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Klinik.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c922zfRb5ORzqEo8SDjt8Mx8lDMhGTWhqKcK/oileDM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-13U1C95E\ASUS" issuerKeyHash="f2530dc8b73b328cf94fa98014bddc1f852cb94e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rziJMsLVGq7yisTLdd9UtagnvgQ+jThKi+kXCnD6/34=</DigestValue></Reference></SignedInfo><SignatureValue>yhDeoMaprz1HTsp/PQfyEopthZlBM6RSDZGLxBlZMOAOh5/rx8C36V/57ZKPXg165ZS0eJEIzhtICLGQ/Mw9DcLhCrQthjrbOLkHx000JUzUWYhs0hxrW7eo8bqvzIJjbh0hi4xS6fDd1mJNSdxU9/PaJxDryCn7GAS7wED/kkw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>z10hrUtUilGXQKVmoTdycxzaPapEJWB/Y0gHutoQktXwLMcn7NTv+xTfmkVoLCvUTe2w2CYBhzla+wMRllQJVjNZwMxT/Rp/6xTh5cSFEW60BuK5tKgg3qBAEpybDaVJC9h/RbqepOwCfmOTEqsqcaX18hHBt7QQqZXAoGYPmKU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7efffa700a17e98b4a388d3e04be27a8b554df75cbc48af2ae1ad5c2328938af" Description="" Url=""><as:assemblyIdentity name="Klinik.exe" version="1.0.0.0" publicKeyToken="8591b19333b3d93c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-13U1C95E\ASUS</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jV8XoBdkfCmyG3E9X50rnePB3VGRCelg8I8e9yMiW50=</DigestValue></Reference></SignedInfo><SignatureValue>pZ5JX5xNjU3UQxJynmscZJMsFkfxnwnCyBJ0SpdwyodGvQf/XsYznPLVxetA5TzGbGHNxcHOrNNhDJT2WSJHAJOAvuG46tj5OeyQbB+82Cv62O76XIgfST039jQB3UOc5tbqC2SEA/8MxvkBdrw4PF6jVFJb8ob2zyPh+LTyqGc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>z10hrUtUilGXQKVmoTdycxzaPapEJWB/Y0gHutoQktXwLMcn7NTv+xTfmkVoLCvUTe2w2CYBhzla+wMRllQJVjNZwMxT/Rp/6xTh5cSFEW60BuK5tKgg3qBAEpybDaVJC9h/RbqepOwCfmOTEqsqcaX18hHBt7QQqZXAoGYPmKU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQTmyUpfbpZaJJJiQdtx3tSjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATABBAFAAVABPAFAALQAxADMAVQAxAEMAOQA1AEUAXABBAFMAVQBTMB4XDTIzMDcwNDAyMjUzNloXDTI0MDcwMzA4MjUzNlowMzExMC8GA1UEAx4oAEwAQQBQAFQATwBQAC0AMQAzAFUAMQBDADkANQBFAFwAQQBTAFUAUzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAz10hrUtUilGXQKVmoTdycxzaPapEJWB/Y0gHutoQktXwLMcn7NTv+xTfmkVoLCvUTe2w2CYBhzla+wMRllQJVjNZwMxT/Rp/6xTh5cSFEW60BuK5tKgg3qBAEpybDaVJC9h/RbqepOwCfmOTEqsqcaX18hHBt7QQqZXAoGYPmKUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBN8lyODhE2glcvZCSK2LxGH6X9qzGsHreFBaFaOZiaMQObEmq7oYH84pk61tJb0i27cnbpZRZQLfNHPZfXcE9rxGI6Ff1umXdOrowTAP4FZl3NNVNSJtox5rvJVSrxn2/nseVTn7ZXGizsVfNx4Tqmh2rKuOhG2+3fLTDFjf76Ew==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
